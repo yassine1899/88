@@ -2,37 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url('https://th.bing.com/th/id/R.4741b35d7227547be7223220e628be57?rik=JcVUuslXSofJyw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwc1739940.jpg&ehk=SZBMP%2ftEwZL5zWZ036lAN1WHgLRPdJCY1Cx%2fJpH8nJA%3d&risl=&pid=ImgRaw&r=0');
+  background-size: cover;
+  animation: liveBackground 10s linear infinite;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.img{
+  width: 100px;
+  justify-items: left;
+  border: 1px white solid;
+  border-radius: 13px;
+  position: fixed;
+  left: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ea{
   color: white;
-}
+  font-size: 70px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav{
+  border: none;
+  display: flex;
+  justify-content: space-around;
 }
